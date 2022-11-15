@@ -91,3 +91,4 @@ class DBStorage:
     def close(self):
         """ Ends private session attributes """
         self.__session.close()
+        self.reload()
